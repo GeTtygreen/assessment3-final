@@ -1,0 +1,170 @@
+body {
+    background-image:url(https://64.media.tumblr.com/51015ec638a516f7f7d353ca198a5091/tumblr_pdbo9wBAe11xd0gvgo1_1280.gifv);
+    background-position:center;
+
+    background-size:100%;
+    background-repeat: no-repeat;
+    color:rgb(20, 219, 96);
+    text-align:center;
+  }
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:nunito, sans-serif;
+  }
+  header{
+    text-align:center;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+    background-color:rgb(4, 170, 109);
+    color:white;
+    position:sticky;
+    top: 0;
+  }
+    h1{
+      color:rgb(24, 131, 108);
+    }
+  nav{
+    width: 30vw;
+    display:flex;
+    justify-content:space-between;
+  }
+  main{
+    margin: 0 100px;
+    display:flex;
+    justify-content:space-between; 
+  }
+  #question{
+    position:fixed;
+    right:10px;
+    bottom: 10px;
+    width:40px;
+    height:40px;
+    border: 3px solid rgb(4, 170, 109);
+    border-radius:50%;
+    background-color:rgb(2, 6, 8);
+   display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #left{
+    width:55%;
+    margin-top:40px;
+  }
+  .pic-container{
+    height:375px;
+    display:flex;
+   flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    position:relative;
+  }
+  #Large{
+    position: absolute;
+    top:0;
+    right: 0;
+    color:rgb(4, 170, 109);
+    font-size: 14px;
+  }
+  .gallery-img{
+    width: 175px;
+    margin: 20px;
+    }
+  .profile-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:250px;
+    height:250px;
+    margin-top: 40px;
+    background-color:rgb(4, 170, 109);
+    box-shadow: 0 0 50px rgba(4, 10, 5, 0.3); 
+    border-radius:10px;
+    }
+  .pro{
+      border-radius:10px;
+      border:solid 1px black;
+      height: 225px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:175px;
+     background-color:rgb(4, 170, 109);
+   
+  }
+  .article{
+    display:flex;
+    flex-direction:coloumn;
+    align-items:center;
+    margin-top:40px;
+    height:360px;
+    padding-top:20px;
+      width:250px;
+     background-color:rgb(5, 3, 3);
+    box-shadow: 0 0 50px rgba(102,75,75,.3); 
+    border-radius:10px;
+  }
+  
+  ol{
+    margin-top:15px;
+    line-height:200%;
+    font-size:14px; 
+  }
+  footer{
+      position:fixed;
+      left:0;
+      bottom:0;
+      width:100%;
+    background-color:rgb(4, 170, 109);
+    padding:20px;
+    
+  }
+  /* buttons */
+  .green{
+    background-color: #ecfc0a;
+    border: solid 1px black;
+    border-radius:10%;
+    color: rgb(14, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  .france{ 
+    background-color: #ecfc0a;
+    border: solid 1px black;
+    border-radius:10%;
+    color: rgb(14, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+  }
+  .ritual{
+    background-color: #ecfc0a;
+    border: solid 1px black;
+    border-radius:10%;
+    color: rgb(14, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+  }
+
+  
+  
